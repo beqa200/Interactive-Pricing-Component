@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "./dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body class="bg-main bg-no-repeat bg-[left_top_-3rem]">
+    <header class="h-60 bg-circles bg-no-repeat bg-[center_top_3.5rem]">
+        <h1 class="text-center pt-20 text-2xl font-manrope font-extrabold text-deepBlue">Simple, traffic-based pricing</h1>
+        <p class="mt-2 text-center w-52 m-auto font-manrope font-semibold text-lightBlue">Sign-up for our 30-day trial. 
+            No credit card required.  
+        </p>
+    </header>
+    
+    <div class="font-manrope w-5/6 h-divHeight m-auto bg-white drop-shadow-[0_20px_20px_rgba(127,137,185,0.1521)] rounded-lg max-w-[540px] mb-[137px] xl:h-[370px]">
+        <div class="xl:flex">
+            <p class="views tracking-wider w-36 m-auto pt-9 font-extrabold text-lightBlue text-center">100K PAGEVIEWS</p>
+            <div  class="m-auto w-[180px] hidden font-manrope xl:block">
+                <h1 class="price inline-block text-deepBlue text-4xl mt-[24px] font-black">$16.00</h1> <p class="duration inline-block text-lightBlue font-semibold">/ month</p>
+            </div>
+        </div>
+        <div class="w-5/6 m-auto relative">
+            <input type="range" min="1" max="5" value="3" class="slider appearance-none w-[100%] h-2 m-auto rounded-lg bg-[#ECF0FB] mt-11" />
+            <div class="progressBar w-[50%] h-2 bg-lightGreen rounded-lg mt-[-14px] absolute"></div>
+        </div>
+        
+       
+        <div  class="m-auto w-[180px]  font-manrope xl:hidden">
+            <h1 class="price inline-block text-deepBlue text-4xl mt-[24px] font-black">$16.00</h1> <p class="duration inline-block text-lightBlue font-semibold">/ month</p>
+        </div>
+        
+        <div class="flex justify-around mb-[42px] font-manrope font-semibold text-[12px] text-lightBlue mt-[34px] m-auto max-w-[340px]">
+            <p>Monthly Billing</p> 
+            <div class="change w-[43px] h-[22px] cursor-pointer bg-grey rounded-[16px] hover:bg-[#7AEADF]">
+                <div class="circle w-[16px] h-[16px] rounded-full mt-[3px] ml-[3px] bg-white transition-[0.3s]"></div>
+            </div>
+            <p>Yearly Billing</p>
+            <div class="bg-lightRed w-[41px] h-[19px] rounded-[16px] text-red text-[10px] xl:w-[85px]">
+                <p class="text-red ml-[8px] mt-[2px] text-[10px] inline-block">-25%</p> <p class="inline-block hidden xl:inline-block"> discount</p> 
+            </div>
+        </div>
+
+        <div class="border-t-[1px] flex flex-col items-center h-[170px] justify-between font-manrope font-semibold text-lightBlue text-[12px] xl:flex-wrap">
+            <div class="flex flex-col items-center h-[110px] justify-between xl:items-start">
+                <div class="mt-[24px]">
+                    <img class="w-[9px] h-[8px] mr-[18px] inline-block" src="./images/icon-check.svg" /> <p class="inline-block">Unlimited websites</p>
+                </div>
+                <div>
+                    <img class="w-[9px] h-[8px] mr-[18px] inline-block" src="./images/icon-check.svg" /> <p class="inline-block">100% data ownership </p>
+                </div>
+                <div>
+                    <img class="w-[9px] h-[8px] mr-[18px] inline-block" src="./images/icon-check.svg" /> <p class="inline-block">Email reports</p>
+                </div>
+
+            </div>
+            <div class="xl:mt-[20px]">
+                <button class="w-[170px] h-[41px] tracking-widest bg-deepBlue rounded-[20.5px] cursor-pointer m-auto mt-[30px] text-[14px] text-[#BECDFF] font-normal font-manrope hover:text-white">Start my trial</button>
+            </div>
+            
+        </div>
+
+        
+
+    </div>    
+
+    
+
+
+
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
