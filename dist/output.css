@@ -811,6 +811,34 @@ video {
   background-image: url('../images/pattern-circles.svg');
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-\[length\:200px_100px\]{
+  background-size: 200px 100px;
+}
+
+.bg-\[length\:200px_100vw\]{
+  background-size: 200px 100vw;
+}
+
+.bg-\[length\:100vw_100px\]{
+  background-size: 100vw 100px;
+}
+
+.bg-\[length\:100vw_200px\]{
+  background-size: 100vw 200px;
+}
+
+.bg-\[length\:100vw_600px\]{
+  background-size: 100vw 600px;
+}
+
+.bg-\[length\:100vw_500px\]{
+  background-size: 100vw 500px;
+}
+
 .bg-\[left_top_-3rem\]{
   background-position: left top -3rem;
 }
