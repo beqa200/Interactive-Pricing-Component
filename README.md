@@ -11,7 +11,7 @@
 ### Links
 
 - Solution URL: [GitHub Code](https://github.com/beqa200/Interactive-Pricing-Component)
-- Live Site URL: [GitHub Live](https://beqa200.github.io/Interactive-Pricing-Component/)
+- Live Site URL: [GitHub Live](https://beqa200.github.io/interactive-pricing-component/)
 
 ## My process
 
